@@ -1,7 +1,6 @@
 # Add your code here
 require 'pry'
 
-#attr_accesor :name
 class Dog
   attr_accessor :name
   @@all = []
@@ -24,7 +23,7 @@ class Dog
    def self.print_all
      @@all.each do |name|
          puts name.name
-      end
+     end
    end
 
    def self.clear_all
