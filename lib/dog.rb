@@ -20,9 +20,6 @@ attr_accessor :name
         puts dog.name
      end
 
-     #@@all
- binding.pry
-     #save
   end
 
    def self.print_all
