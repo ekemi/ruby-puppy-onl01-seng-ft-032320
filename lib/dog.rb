@@ -11,9 +11,9 @@ attr_accessor :name
     @@all << self
   end
 
-  def save
-    @@all <<  self
-  end
+  # def save
+  #   @@all <<  self
+  # end
 
   def self.all
     @@all.each do |dog|
